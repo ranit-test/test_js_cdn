@@ -1,7 +1,1 @@
-# _config.yml
-title: Test Title
-description: Test Description
-theme: minima 
-url: "https://ranit-test.github.io"
-
-# markdown: GFM
+markdown: GFM

@@ -1,5 +1,5 @@
-console.log("Hi from external");
+import {sayHellofromSib} from "./sibling.js"
 
 function sayHello(div){
-    div.innerText = "Hello";
+    div.innerText = sayHellofromSib(div);
 }

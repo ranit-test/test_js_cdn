@@ -1,6 +1,6 @@
-// import { sayHellofromSib } from "./sibling.js";
+import { btn_util } from "./sibling.js"
 
-function sayHello(div){
-    console.log("hello from main lib");
-    div.innerText = sayHellofromSib(div);
+export function btn_main(div){
+    console.log("from main")
+    btn_util(div)
 }

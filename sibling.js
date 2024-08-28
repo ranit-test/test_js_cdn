@@ -1,4 +1,4 @@
-export function sayHellofromSib(div){
-    console.log("hello from sib lib");
-    div.innerText = "Hello from Sib";
+export function btn_util(div){
+    console.log("From util")
+    div.innerText="I got clicked"
 }
